@@ -23,7 +23,7 @@ function calcularMedia() {
             let exame = parseFloat(prompt('Voce ficou abaixo da média, digite a nota de exame'))
             let mediaExame = (media + exame)/2
             
-            if (mediaExame <= 5 ) {
+            if (mediaExame >= 5 ) {
                 condicao = 'aprovado em exame'
             } else{
                 condicao = 'reprovado em exame'
