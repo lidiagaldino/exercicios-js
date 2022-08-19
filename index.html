@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/app.js"></script>
+    <title>Exercicios</title>
+</head>
+<body>
+
+    <div class="tab">
+        <button type="button" class="botao" id="exum">um</button>
+        <button type="button" class="botao" id="exdois">dois</button>
+        <button type="button" class="botao" id="extres">tres</button>
+        <button type="button" class="botao" id="exquatro">quatro</button>
+        <button type="button" class="botao" id="excinco">cinco</button>
+        <button type="button" class="botao" id="exseis">seis</button>
+    </div>
+
+    <main id="main">
+
+        <div class="inicio show" id="inicio">
+            <h2>Selecione um exercício para vizualizar</h2>
+        </div>
+
+        <div class="ex1 tabcontent" id="um">
+            <div class="header">
+                <h2>Calcular diferença</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario">
+                    <input id="numero1" class="input" type="number" placeholder="Digite o primeiro número" required>
+                    <input id="numero2" class="input" type="number" placeholder="Digite o segundo número" required>
+                </form>
+                <button id="button" type="button">Calcular</button>
+        
+                <div class="resultado" id="resultado"></div>
+            </div>
+        </div>
+    
+        <div class="ex2 tabcontent" id="dois">
+            <div class="header">
+                <h2>Positivo</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario2">
+                    <input id="numero1ex2" class="input" type="number" placeholder="Digite o primeiro número" required>
+                </form>
+                <button id="button2" type="button">Mudar</button>
+        
+                <div class="resultado" id="resultado2"></div>
+            </div>
+        </div>
+    
+        <div class="ex3 tabcontent" id="tres">
+            <div class="header">
+                <h2>Média</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario3">
+                    <input id="numero1ex3" class="input" type="number" placeholder="Digite a primeira nota" max="10" required>
+                    <input id="numero2ex3" class="input" type="number" placeholder="Digite a segunda nota" max="10" required>
+                    <input id="numero3ex3" class="input" type="number" placeholder="Digite a terceira nota" max="10" required>
+                    <input id="numero4ex3" class="input" type="number" placeholder="Digite a quarta nota" max="10" required>
+                </form>
+                <button id="button3" type="button">Calcular</button>
+        
+                <div class="resultado" id="resultado3"></div>
+            </div>
+        </div>
+    
+        <div class="ex4 tabcontent" id="quatro">
+            <div class="header">
+                <h2>Média2</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario4">
+                    <input id="numero1ex4" class="input" type="number" placeholder="Digite a primeira nota" max="10" required>
+                    <input id="numero2ex4" class="input" type="number" placeholder="Digite a segunda nota" max="10" required>
+                    <input id="numero3ex4" class="input" type="number" placeholder="Digite a terceira nota" max="10" required>
+                    <input id="numero4ex4" class="input" type="number" placeholder="Digite a quarta nota" max="10" required>
+                </form>
+                <button id="button4" type="button">Calcular</button>
+        
+                <div class="resultado" id="resultado4"></div>
+            </div>
+        </div>
+    
+        <div class="ex5 tabcontent" id="cinco">
+            <div class="header">
+                <h2>Divisivel</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario5">
+                    <input id="numero1ex5" class="input" type="number" placeholder="Digite o primerio número" required>
+                    <input id="numero2ex5" class="input" type="number" placeholder="Digite o segundo número" required>
+                    <input id="numero3ex5" class="input" type="number" placeholder="Digite o terceiro número" required>
+                    <input id="numero4ex5" class="input" type="number" placeholder="Digite o quarto número" required>
+                </form>
+                <button id="button5" type="button">Calcular</button>
+        
+                <div class="resultado" id="resultado5"></div>
+            </div>
+        </div>
+    
+        <div class="ex6 tabcontent" id="seis">
+            <div class="header">
+                <h2>Maior que três</h2>
+            </div>
+        
+            <div class="main">
+                <form id="formulario6">
+                    <input id="numero1ex6" class="input" type="number" placeholder="Digite o primeiro número" required>
+                </form>
+                <button id="button6" type="button">Mudar</button>
+        
+                <div class="resultado" id="resultado6"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>

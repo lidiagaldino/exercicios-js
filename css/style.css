@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tab{
+    overflow: hidden;
+    background-color: rgb(27, 26, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    gap: 10px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(17, 0, 170), rgb(78, 96, 255), rgb(150, 197, 255));
+}
+
+.tab button{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(142, 199, 255);
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.tab button:hover{
+    background-color: rgba(49, 49, 188, 0.679);
+    color: white;
+}
+
+main{
+    height: 100%;
+}
+
+.inicio{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inicio.show{
+    display: flex;
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.tabcontent{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.ex4.show{
+    display: flex;
+}
+.ex1.show{
+    display: flex;
+}
+.ex2.show{
+    display: flex;
+}
+.ex3.show{
+    display: flex;
+}
+.ex5.show{
+    display: flex;
+}
+.ex6.show{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.main button{
+    width: 120px;
+    padding: 20px;
+    background-color: rgba(0, 123, 123, 0.766);
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+.main button:hover{
+    background-color: rgb(127, 200, 255);
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form input{
+    padding: 20px;
+}
+
+
